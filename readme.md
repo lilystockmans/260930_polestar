@@ -1,0 +1,1 @@
+# Polestar 6 preorder pagina namaken in HTML/CSS met flexbox
