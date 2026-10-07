@@ -1,0 +1,103 @@
+        body {
+            margin: 0;
+            font-family: verdana, sans-serif;
+            color: white;
+            background: #43546B;
+            background: linear-gradient(90deg, rgba(67, 84, 107, 1) 0%, rgba(154, 186, 207, 1) 100%);
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: top;
+            padding: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            font-weight: medium;
+        }
+
+        .hero {
+            padding: 40px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        h1 {
+            font-size: 200%;
+            margin: 0;
+            color: rgba(255, 255, 255, 0.753);
+        }
+
+        h2 {
+            font-size: 250%;
+        }
+
+        .leftCard {
+            width: 45%;
+        }
+
+        .carBox {
+            position: relative;
+            margin: 40px 0;
+        }
+
+        .car {
+            position: relative;
+            width: 100%;
+            z-index: 2;
+        }
+
+        .plasma {
+            position: absolute;
+            top: -30px;
+            left: -25px;
+            width: 70%;
+            z-index: 1;
+        }
+
+        h3 {
+            font-weight: normal;
+            font-size: 100%;
+        }
+
+        .rightCard {
+            background-color: rgba(255, 255, 255, 0.124);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            padding-bottom: 10px;
+        }
+
+        input {
+            margin-bottom: 20px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        button {
+            background-color: #596F7E;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: fit-content;
+            font-size: 125%;
+        }
