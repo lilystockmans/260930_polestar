@@ -1,11 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Polestar PreOrder</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: verdana, sans-serif;
+            color: white;
+            background: #43546B;
+            background: linear-gradient(90deg, rgba(67, 84, 107, 1) 0%, rgba(154, 186, 207, 1) 100%);
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: top;
+            padding: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            font-weight: medium;
+        }
+
+        .hero {
+            padding: 40px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        h1 {
+            font-size: 200%;
+            margin: 0;
+            color: rgba(255, 255, 255, 0.753);
+        }
+
+        h2 {
+            font-size: 250%;
+        }
+
+        .leftCard {
+            width: 45%;
+        }
+
+        .carBox {
+            position: relative;
+            margin: 40px 0;
+        }
+
+        .car {
+            position: relative;
+            width: 100%;
+            z-index: 2;
+        }
+
+        .plasma {
+            position: absolute;
+            top: -30px;
+            left: -25px;
+            width: 70%;
+            z-index: 1;
+        }
+
+        h3 {
+            font-weight: normal;
+            font-size: 100%;
+        }
+
+        .rightCard {
+            background-color: rgba(255, 255, 255, 0.124);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            padding-bottom: 10px;
+        }
+
+        input {
+            margin-bottom: 20px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        button {
+            background-color: #596F7E;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: fit-content;
+            font-size: 125%;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <nav>
+        <a href="#"><img class="logo" src="polestarlogo.png"></a>
+        <section class="nav-links">
+            <a href="#">PreOrder</a>
+            <a href="#">Specs</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+        </section>
+    </nav>
+    <div class="hero">
+        <div class="leftCard">
+            <h1><span style="font-size: 24px; font-weight: normal; color: rgba(195, 195, 195, 0.555);">0-100</span> 3.6s
+            </h1>
+            <div class="carBox">
+                <img class="plasma" src="plasma.png">
+                <img class="car" src="car.png">
+            </div>
+            <h3>Don't bother, you will lose that stoplight race ;)</h3>
+        </div>
+        <div class="rightCard">
+            <h2>PreOrder Polestar 6</h2>
+            <label for="name">Uw volledige naam</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Uw emailadres</label>
+            <input type="email" id="email" name="email">
+            <button type="submit">JA, IK WIL DE ROADSTER CABRIO MET DRONE DING</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit
+                anim id est laborum.</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
